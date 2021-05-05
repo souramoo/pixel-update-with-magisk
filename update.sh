@@ -83,6 +83,7 @@ adb reboot fastboot
 
 echo FLASHING PATCHED BOOT
 cd scripts
-fastboot flash boot new-boot.img
+../redfin/fastboot flash boot new-boot.img
+../redfin/fastboot reboot
 cd ..
 
