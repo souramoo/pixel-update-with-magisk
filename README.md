@@ -1,8 +1,10 @@
-# pixel-update-with-magisk
+# Update your rooted Pixel with the latest OTA (while tethered to a PC)
 
-Just a simple script to run from a Linux (or WSL2 under Windows) with your phone connected to update your Pixel 5 to the latest OTA and also patch in Magisk to preserve root all in one go.
+Normally, OTA updates don't work anymore when you're rooted.
 
-A convenience for me :)
+This is a simple script to run from a Linux (or WSL2 under Windows) with your phone connected to update your Pixel 5 to the latest OTA and also patch in Magisk to preserve root all in one go.
+
+The idea is to make updating to the monthly security patches as painless while maintaining root!
 
 ## To use:
 Change the export ANDROID_SDK variable in update.sh and then just run it!
