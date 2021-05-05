@@ -77,7 +77,7 @@ cp $FASTBOOT_LOCATION ./fastboot
 bash flash-all.sh
 cd ..
 
-read -p 
+read -p press enter when the device has booted back up to reboot it back into fastboot and patch the boot image to reenable root....
 
 adb reboot fastboot
 
@@ -87,3 +87,6 @@ cd scripts
 ../redfin/fastboot reboot
 cd ..
 
+cd ..
+read -p deleting tmp dir. press enter to continue....
+rm -rf Magisk
